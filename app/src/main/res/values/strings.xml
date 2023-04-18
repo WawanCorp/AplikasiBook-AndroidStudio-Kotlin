@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Book</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="Login_Now">Already My Account? Login Now</string>
+
+
+    <string name="enter_how_much_cookies_you_want">Enter How Much Cookies You Want</string>
+    <string name="referensi_buku_pelajaran">Referensi Buku Pelajaran</string>
+    <string name="basisdata">Basis Data</string>
+    <string name="Web">WEB</string>
+    <string name="PBO">PBO</string>
+    <string name="mat">MAT</string>
+    <string name="select_file">SELECT FILE</string>
+    <string name="upload_pdf_tugas">Upload PDF Tugas</string>
+    <string name="descrption">Description</string>
+    <string name="title">Title</string>
+    <string name="upload_file">UPLOAD FILE</string>
+    <string name="buku">Buku</string>
+    <string name="register">REGISTER NOW</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_now">REGISTER NOW !!!</string>
+    <string name="hi">Hi,</string>
+    <string name="wawan_kurniawan">Wawan Kurniawan</string>
+    <string name="wawan_gmail_com">wawan@gmail.com</string>
+    <string name="kumpulan_materi_pembelajaran">Kumpulan Materi Pembelajaran</string>
+    <string name="pengumpulan_tugas">Pengumpulan Tugas</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="already_have_an_account">Already Have an Account</string>
+</resources>

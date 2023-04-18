@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+//    id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+
+
+}
+
+android {
+    namespace 'com.aplikasi.book'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.aplikasi.book"
+        minSdk 21
+        targetSdk 33
+        versionCode 9
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        buildFeatures {
+            viewBinding true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation ('com.google.firebase:firebase-auth-ktx:21.2.0')
+    {
+        exclude module : "play-services-safetynet"
+    }
+    implementation 'com.google.android.gms:play-services-auth:20.4.1'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
+    implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+
+    //untuk menampilkan gambar lingkaran
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //ViewPager2
+    implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
+    implementation 'com.stripe:stripe-android:8.1.0'
+
+    //untuk meload gambar
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Google Admob
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    //pembaca pdf
+
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+
+
+
+
+
+
+}
